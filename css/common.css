@@ -1,0 +1,131 @@
+body {
+  font-family: "Pretendard variable", sans-serif;
+  word-break: keep-all;
+}
+
+.page-name {
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 90px;
+  width: 180px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.page-subtitle {
+  width: auto;
+  height: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 18px;
+  line-height: 1.3;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.gray-btn {
+  font-size: 30px;
+  background: #F2F4F6;
+  color: #444444;
+  border: 3px solid #F2F4F6;
+  border-radius: 60px;
+  padding: 9px 30px;
+  font-size: 16px;
+  transition: .8s ease;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 36px;
+  font-weight: 500;
+  box-shadow: 9px 9px 0 #DFE1E2;
+}
+
+.gray-btn:active {
+  box-shadow: 3px 3px 0 #444444;
+  transform: translateY(6px);
+  transition: .1s;
+}
+
+.copy_comment {
+  text-align: center;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_btn {
+  font-size: 30px;
+  background: #F2F4F6;
+  color: #444444;
+  border: 1px solid #F2F4F6;
+  border-radius: 60px;
+  /* padding: 9px 30px; */
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
+  transition: .8s ease;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-weight: 500;
+  box-shadow: 0 9px 0 #DFE1E2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_btn:active {
+  box-shadow: 0 3px 0 #444444;
+  transform: translateY(9px);
+  transition: .1s;
+  position: relative;
+  top: 6px;
+}
+
+.main_introduce h2 {
+  font-size: 15px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.copy_btn {
+  font-size: 30px;
+  background: #F2F4F6;
+  color: #444444;
+  border: 1px solid #F2F4F6;
+  border-radius: 60px;
+  /* padding: 9px 30px; */
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
+  transition: .8s ease;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-weight: 500;
+  box-shadow: 0 9px 0 #DFE1E2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copy_btn:active {
+  box-shadow: 0 3px 0 #444444;
+  transform: translateY(9px);
+  transition: .1s;
+  position: relative;
+}

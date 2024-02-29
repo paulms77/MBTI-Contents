@@ -1,0 +1,72 @@
+body {
+  font-family: "Pretendard variable", sans-serif;
+  word-break: keep-all;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_container {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  padding-bottom: 150px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+}
+
+.item_list .card img {
+  width: 600px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 60px;
+}
+
+.item_list .card .text h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 800;
+}
+
+.item_list .card .text p {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.item_list .card .text a {
+  background: #FFA32D;
+  color: white;
+  border-radius: 60px;
+  padding: 12px 30px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 0 #E66000;
+  padding-top: 5px;
+}
+
+.item_list .card .text a:active {
+  box-shadow: 0 3px 0 #E66000;
+  position: relative;
+  top: 6px;
+  transition: .1s;
+}
+
+.main_introduce h2 {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
